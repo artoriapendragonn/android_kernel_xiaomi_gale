@@ -2234,3 +2234,11 @@ config ARCH_HAS_SYSCALL_WRAPPER
 	def_bool n
 
 source "init/Kconfig.gki"
+
+config HAVE_MOVE_PMD
+    bool "Dummy HAVE_MOVE_PMD for VINTF"
+    default y
+
+config HAVE_MOVE_PUD
+    bool "Dummy HAVE_MOVE_PUD for VINTF"
+    default y
